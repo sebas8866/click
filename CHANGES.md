@@ -2,6 +2,8 @@
 
 Unreleased
 
+- Keep hyphenated option names intact when wrapping usage lines so that a
+  displayed option remains a valid command-line argument. {issue}`3362`
 - A parameter name that is not a valid Python identifier, or that is a Python
   keyword, is deprecated and raises `TypeError` in Click 9.0. {pr}`3866`
 - An {class}`Option` name written as a Python identifier is deprecated when it
